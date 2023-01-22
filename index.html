@@ -6,7 +6,39 @@
   </head>
 
   <body>
-    
+    <form>
+      <div>
+        <label>
+          Email:
+          <input type="email" name="email_address">
+        </label>
+      </div>
+      <div>
+        <label>
+          Password:
+          <input type="password" name="password">
+        </label>
+      </div>
+      <div>
+        <label>
+          Github Username:
+          <input type="text" name="github_username">
+        </label>
+      </div>
+      <div>
+        <input type="radio" name="version" value="enterprise"> Enterprise
+        <input type="radio" name="version" value="free"> Free
+        <input type="radio" name="version" value="pro"> Pro
+      </div>
+      <div>
+        <input type="checkbox" name="remember" value="remember"> Remember Me?
+      </div>
+
+      <br>
+
+      <button type="submit">Submit</button>
+
+    </form>
   </body>
 
 </html>
